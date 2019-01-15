@@ -2,7 +2,7 @@
 
 ## 模块介绍
 
-Detection模块为检测ICRA Robomaster 2019人工智能挑战赛机器人装甲模块, 同时也包含了对弹丸模型的简单分析(参见文档最后的[弹丸模型分析](sdk_docs/roborts_detection?id=弹丸模型分析)).
+Detection模块为检测ICRA Robomaster 2019人工智能挑战赛机器人装甲模块, 同时也包含了对弹丸模型的简单分析(参见PDF文档[弹丸模型分析](https://raw.githubusercontent.com/RoboMaster/RoboRTS-Tutorial/master/pdf/projectile_model.pdf)).
 
 模块位于`roborts_detection`包中, 依赖`roborts_common`包中抽象工场模式和参数读取, 模块文件目录如下所示.
 
@@ -154,11 +154,6 @@ rosrun roborts_detection armor_detection_node
 rosrun roborts_detection armor_detection_client
 ```
 
-### 弹丸模型分析
-
-```pdf
-../pdf/projectile_model.pdf
-```
 
 
 
