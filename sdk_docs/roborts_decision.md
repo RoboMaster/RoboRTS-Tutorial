@@ -95,7 +95,7 @@ roborts_decision/
 
 底盘调度模块包括对底盘不同抽象程度的任务调度接口，运行框图如下所示
 
-![](../images/chassis_executor.png)
+![](https://rm-static.djicdn.com/documents/20758/ae091269db41b1547553446982826082.png)
 
 其中包括三个任务模式
 
@@ -117,13 +117,13 @@ roborts_decision/
 
 在实际场景与虚拟环境中的导航系统框图如下所示
 
-![](../images/navigation.png)
+![](https://rm-static.djicdn.com/documents/20758/1a8702f75a2361547553400516274462.png)
 
 #### 云台调度模块
 
 云台调度模块包括对云台不同抽象程度的任务调度接口，运行框图如下所示
 
-![](../images/gimbal_executor.png)
+![](https://rm-static.djicdn.com/documents/20758/5a50d15ba49371547553470292508751.png)
 
 其中包括两个任务模式
 

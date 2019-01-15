@@ -46,7 +46,7 @@ roborts_detection
 
 armor_detection_node 的ROS节点图示为
 
-![](../images/armor_detection.png)
+![](https://rm-static.djicdn.com/documents/20758/01dfe2ff9684a1547553225209707914.png)
 
 节点的输入输出如下
 

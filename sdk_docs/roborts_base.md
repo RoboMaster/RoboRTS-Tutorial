@@ -64,7 +64,7 @@ roborts_base
 
 其ROS节点图示如下：
 
-![](../images/roborts_base_node.png)
+![](https://rm-static.djicdn.com/documents/20758/c83bd9a96d0881547553169167234981.png)
 
 ### 云台模块
 

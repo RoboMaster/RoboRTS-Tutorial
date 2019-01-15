@@ -28,7 +28,7 @@
 
 global_planner_node为核心规划节点，ROS节点图示为
 
-![](../images/global_planner.png)
+![](https://rm-static.djicdn.com/documents/20758/63b3d8db24ce71547553505842780076.png)
 
 节点的输入输出如下
 
@@ -108,9 +108,9 @@ global_planner_node为核心规划节点，ROS节点图示为
 
 - 初始化成功后，开启规划线程，ROS回调队列在主线程开始回调，同时线程Actionlib Server Callback也开始回调
   - 规划线程执行流程图
-    ![](../images/global_planner_plan.png)
+    ![](https://rm-static.djicdn.com/documents/20758/057c895762b7d1547553536324774678.png)
   - Actionlib Server Callback线程执行流程图
-    ![](../images/global_planner_actionlib.png)
+    ![](https://rm-static.djicdn.com/documents/20758/b93803f9be2aa1547553557409469215.png)
 
 
 ## 编译与运行
@@ -138,7 +138,7 @@ rosrun roborts_planning global_planner_test
 ```
 开启Rviz，显示了模块所需的输入输出，如下图所示
 
-![](../images/global_planner_rviz.png)
+![](https://rm-static.djicdn.com/documents/20758/844f7b73e9a091547553578138533412.png)
 
 - Pose: 红色箭头为规划目标点
 - LaserScan: 黄色点集为激光雷达扫描数据

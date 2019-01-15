@@ -62,7 +62,7 @@ local_planner
 
 local_planner_node为核心规划节点，ROS节点图示为:
 
-![](../images/local_planner.png)
+![](https://rm-static.djicdn.com/documents/20758/708f059fc647c1547553602751260545.png)
 
 节点的输入输出如下
 

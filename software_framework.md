@@ -3,7 +3,7 @@
 
 整个软件系统架构如下图所示
 
-![system_diagram](images/system_diagram.png)
+![system_diagram](https://rm-static.djicdn.com/documents/20758/40aac2fa9e6b81547552996504129513.png)
 
 开发者基于该平台可以自底向上进行编程开发，来控制机器人完成不同的任务，整个框架分为两个部分
 
@@ -33,11 +33,11 @@ RoboRTS及RoboMaster移动机器人平台的初衷，是为了鼓励更多的开
 
 追击与搜索：
 
-![airobot1](images/airobot1.gif)
+![airobot1](https://rm-static.djicdn.com/documents/20758/2c66c923154ae1547553014851539095.gif)
 
 巡逻：
 
-![airobot2](images/airobot2.gif)
+![airobot2](https://rm-static.djicdn.com/documents/20758/299a5a10c187a1547553038856640888.gif)
 
 
 

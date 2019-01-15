@@ -6,7 +6,7 @@
 
 数据流示意图如下：
 
-![localization](../images/localization.png)
+![localization](https://rm-static.djicdn.com/documents/20758/0ba7ea27fc531547553277041255026.png)
 
 
 
@@ -76,7 +76,7 @@ rosrun roborts_localization localization_node
 
 RViz中的测试效果
 
-![localization_rviz](../images/localization_rviz.png)
+![localization_rviz](https://rm-static.djicdn.com/documents/20758/f172f1f29aa2f1547553303273821911.png)
 
 
 
@@ -202,7 +202,7 @@ RViz中的测试效果
 
 ### 算法介绍
 
-![autonomous mobile robot](../images/AMCL_mindnode.png)
+![autonomous mobile robot](https://rm-static.djicdn.com/documents/20758/6b0ea21b6d57a1547553332830529202.png)
 
 自适应蒙特卡洛定位( AMCL, Adaptive Monte Carlo Localization)是一套适用于二维机器人运动的定位算法。其主要的算法原理源于《Probabilistic Robotics》一书8.3中描述的**MCL**, **Augmented_MCL**, 和**KLD_Sampling_MCL**算法的结合与实现。同时书中第5章描述的Motion Model和第6章描述的Sensor Model，用于AMCL中运动的预测和粒子权重的更新。
 
@@ -210,7 +210,7 @@ RViz中的测试效果
 
 
 
-算法基本流程如下图![AMCL_flowchart](../images/AMCL_flowchart.png)
+算法基本流程如下图![AMCL_flowchart](https://rm-static.djicdn.com/documents/20758/e75d3533fc03c1547553357220164263.png)
 
 
 

@@ -2,7 +2,7 @@
 
 ## 架构与模块介绍
 整体系统以 `机器人传感器->感知->决策->规划->控制->执行器` 的环路进行架构，不同模块具体以ROS Package的形式维护，模块和其数据流如下图所示
-![](../images/architecture.png)
+![](https://rm-static.djicdn.com/documents/20758/f42d65d85d97c1547553106539783606.png)
 
 ### 传感器、控制器与执行器
 
