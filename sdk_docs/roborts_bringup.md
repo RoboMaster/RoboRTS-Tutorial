@@ -7,11 +7,11 @@
 roborts_bringup
 ├── CMakeLists.txt
 ├── launch                              #launch启动脚本
+│   ├── base.launch                      #机器人驱动sdk启动脚本
 │   ├── roborts.launch                  #除决策和调度模块的其他功能性节点测试脚本
 │   ├── roborts_stage.launch            #对应上面的stage仿真测试脚本
 │   ├── mapping.launch                  #建图的测试脚本
 │   ├── mapping_stage.launch            #建图的stage仿真测试脚本
-│   ├── sdk.launch                      #机器人驱动sdk启动脚本
 │   ├── slam_gmapping.xml               #gmapping建图节点启动脚本
 │   └── static_tf.launch                #静态坐标变换脚本
 ├── maps                                #地图配置文件
@@ -82,7 +82,7 @@ roborts_bringup
 在实际场景中，开启机器人驱动sdk脚本
 
 ```shell
-roslaunch roborts_bringup SDK.launch
+roslaunch roborts_bringup base.launch
 ```
 
 在实际场景中，执行除决策和调度模块的其他功能性节点测试脚本

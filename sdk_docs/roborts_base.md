@@ -154,7 +154,7 @@ rosrun roborts_base roborts_base_node
 或者启动相关launch文件
 
 ```shell
-roslaunch roborts_bringup roborts_base.launch
+roslaunch roborts_bringup base.launch
 ```
 
 
