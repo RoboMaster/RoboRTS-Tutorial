@@ -3,7 +3,7 @@
   * [RoboMaster 2019](README.md)
   * [硬件规格](hardware_specifications.md)
   * [软件框架](software_framework.md)
-  * [相关文档](documents.md)
+  * [相关文件](documents.md)
 * 快速入门
   * [Manifold 2 配置指南](quick_start/setup_on_manifold2.md)
   * [快速测试](quick_start/quick_test.md)
