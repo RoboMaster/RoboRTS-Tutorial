@@ -53,7 +53,7 @@ Open browser，input`http://localhost:8000` or `http://127.0.0.1:8000`,then you 
 
 
 
-## Function support
+## Function Support
 
 ### KaTex
 

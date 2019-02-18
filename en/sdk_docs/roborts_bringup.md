@@ -1,6 +1,6 @@
 # Bringup Module
 
-## Module introduction
+## Module Introduction
 
 The bringup module mainly includes basic configuration files and startup scripts in the roborts_bringup Package. The module file directory is as follows.
 ```bash
@@ -77,7 +77,7 @@ The startup service includes
 
 Users can modify the required script files and service files to customize the startup service according to their needs.
 
-## Test script
+## Test and Run
 
 In the actual scenario, run the robot driver script
 

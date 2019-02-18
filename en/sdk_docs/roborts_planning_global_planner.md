@@ -1,6 +1,6 @@
 # Global Path Planning
 
-## Introduction of the module
+## Module Introduction
 
 Global path planning (Referred to as global planning) is the first step of the motion planning of the Navigation System , after you set a target location, it will search a shortest path (a series of discrete coordinate points) without collision by perceptual global cost map , and then passed the path to the local trajectory planning module as a input to control the specific motion of the robot.
 
@@ -26,7 +26,7 @@ The module of global path planning is located in `roborts_planner`,  relevant ac
         └── global_planner_config.proto    # Global planning parameter definition file.
 ```
 
-Related algorithm of global path planning refers to [A Star Algorithm](algorithm/a_star.md) 
+Related algorithm of global path planning refers to [A Star Algorithm](en/sdk_docs/roborts_planning_global_planner?id=a) 
 
 global_planner_node is the core planning node，ROS node graph is as follow:
 
@@ -74,7 +74,7 @@ The input and output of the nodes are as follows:
 
   It is used to visually display the global cost map.
 
-### Related parameters
+### Related Parameters
 
 Definition of the parameters refer to `proto/global_planner_config.proto`. Configuration of the parameters refer to `config/global_planner_config.prototxt`
 
@@ -149,8 +149,8 @@ Start Rviz，it display the input and output of modules that needed，as shown i
 - Map: Different colors (purple, red, blue, blue, etc.) show global cost maps at different costs.
 - Path: Green path is the planning path.
 
-## A*
-### Introduction of algorithm
+## A Star
+### Algorithm Introduction
 
 The A*(A-Star) algorithm is the most effective method for solving the shortest path in a static road network.The formula is expressed as：
 
@@ -158,7 +158,7 @@ $$ f(n) = g(n) + h(n) $$
 
 $f(n)$ is the value function of node n from the initial point to the target point, $g(n)$ is the actual cost from the initial node to the n node in the state space, $h(n)$ is the cost from n to the target node of the best path . In the actual global path planning, the static network routing  is provided by the global cost map.
 
-### Related parameters
+### Related Parameters
 * inaccessible_cost(`int`, default: 253)
 
     The cost of map grid which is impassable(deadly obstacle).

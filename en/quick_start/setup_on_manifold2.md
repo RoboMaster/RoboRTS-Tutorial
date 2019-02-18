@@ -4,13 +4,13 @@ This chapter focuses on the deployment and application of RoboRTS on Manifold 2.
 >
 > Manifold 2 is a microcomputer create by DJI for developers. The Manifold 2-G series is equipped with the NVIDIA Jetson TX2 module. The Manifold 2 is the Manifold 2-G series by default. This document also applies to the Nvidia Jetson TX2 Native Development Kit.
 
-## Performance configuration of Manifold 2
+## Performance Configuration
 
-### Turn on the maximum performance of Manifold 2
+### Turn on the maximum performance
 
 In Manifold 2, you can use NVPModel to allocate the cpu core number and the maximum frequency of cpu and gpu. Manifold 2 default mode only opens 4 `CPU` cores , to get maximum performance, you need to use the `nvpmodel` command to change the configuration.
 
-#### View and change mode：
+#### View and change mode
 
 ```bash
 sudo nvpmodel -q --verbose # View current mode
@@ -30,7 +30,7 @@ The mode corresponding to the number is as follows：
 |  3   |   Max-P ARM    |    0     |           |    4    |  2.0 GHz  |   1.12 Ghz    |
 |  4   |  Max-P Denver  |    2     |  2.0 GHz  |    0    |           |   1.12 Ghz    |
 
-#### Turn on the maximum clock frequency:
+#### Turn on the maximum clock frequency
 
 Manifold 2 will install this script in the Home directory. Run this script changing the clock frequency, mainly to maximize performance.
 
@@ -68,10 +68,10 @@ sudo ./jetson_clocks.sh
 
   > [!Tip]
   >
-  > Refer to the [script](sdk_docs/roborts_bringup?id=脚本) section of the `roborts_bringup` module documentation to enable maximum performance and turn off wlan0 power-saving mode by booting the service.
+  > Refer to the [Script](en/sdk_docs/roborts_bringup?id=script) section of the `roborts_bringup` module documentation to enable maximum performance and turn off wlan0 power-saving mode by booting the service.
 
 
-## Peripheral port mapping configuration
+## Peripheral Port Mapping
 
   According to the hardware interface (serial port, USB or ACM), configure the udev file in /etc/udev/rules.d to implement the device binding of the STM32 device virtual serial port and lidar:
 
@@ -110,11 +110,11 @@ If it is a cheap camera, the serial port number may be the same, you can configu
 
 >[!Tip]
 >
->You can refer to the [script](sdk_docs/roborts_bringup?id=脚本) section of the `roborts_bringup` module documentation to execute the udev port mapping script.
+>You can refer to the [Script](en/sdk_docs/roborts_bringup?id=script) section of the `roborts_bringup` module documentation to execute the udev port mapping script.
 
 
 
-## Software dependency configuration
+## Software Dependency Configuration
 
 ### ROS (ros-kinetic-ros-base)
 
@@ -144,7 +144,7 @@ sudo apt-get install -y ros-kinetic-opencv3             \
                         libgoogle-glog-dev              \
 ```
 
-### Other commonly used software
+### Other recommended software
 
 - git
 - cmake
@@ -152,7 +152,7 @@ sudo apt-get install -y ros-kinetic-opencv3             \
 - terminator
 - htop
 
-## Download and compile of RoboRTS 
+## RoboRTS Download and Compile
 
 
 ```bash

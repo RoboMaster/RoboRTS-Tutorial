@@ -24,7 +24,7 @@ roborts_base
 │   └── roborts_base_parameter.yaml  #Parameter configuration file
 ├── roborts_base_config.h            #Parameter reading class
 ├── roborts_base_node.cpp            #Core node Main function
-├── ros_dep.h                        #Includes header files for all protocols                                                corresponding to ROS messages
+├── ros_dep.h                        #Includes header files for all protocols corresponding to ROS messages
 ├── roborts_sdk                     
 │   ├── ...
 └── package.xml
@@ -64,9 +64,9 @@ In the core running node`roborts_base_node` of the module，After the objects of
 
 Its ROS node is shown as follows：
 
-![](https://rm-static.djicdn.com/documents/20758/c83bd9a96d0881547553169167234981.png)
+![](https://rm-static.djicdn.com/documents/20758/002d528eb36ad1550474043463957284.png)
 
-### Chassis module
+### Chassis Module
 
 #### Input
 
@@ -94,7 +94,7 @@ Its ROS node is shown as follows：
   From base_link->odom
 
 
-### Gimbal module
+### Gimbal Module
 
 #### Input
 
@@ -124,13 +124,13 @@ Its ROS node is shown as follows：
   
   From base_link->gimbal
 
-### Related parameters
+### Related Parameters
 
 * serial_path(`string`, Defaults: "/dev/serial_sdk")
 
     Serial port path name，The default value is "/dev/serial_sdk" set by udev rules
 
-## Compile and run
+## Compile and Run
 
 ### Compile
 

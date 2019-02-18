@@ -2,7 +2,7 @@
 
 ## Module Introduction
 
-The localization node is a required dependency in the localization system. By analysing data from sensors using specific algorithms, the node acquires the transformation of coordinate systems from the robot and the map, which indicates the pose and position of the robot. The default localization algorithm in `roborts_localization` is AMCL algorithm. For more information about AMCL and relative parameters, see [AMCL](sdk_docs/roborts_localization?id=amcl算法).
+The localization node is a required dependency in the localization system. By analysing data from sensors using specific algorithms, the node acquires the transformation of coordinate systems from the robot and the map, which indicates the pose and position of the robot. The default localization algorithm in `roborts_localization` is AMCL algorithm. For more information about AMCL and relative parameters, see [AMCL](en/sdk_docs/roborts_localization?id=amcl).
 
 
 The data flow diagram is as follows:
@@ -200,7 +200,7 @@ Test result in RViz:
   frequency of UWB correction
 
 
-## AMCL Algorithm
+## AMCL
 
 ### ALgorithm Introduction
 

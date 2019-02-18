@@ -10,37 +10,37 @@ This module is a submodule of `roborts_detection` and depends on the abstract fa
 roborts_detection
 ├── package.xml
 ├── CMakeLists.txt
-├── armor_detection                  # algorithms for armor detection
+├── armor_detection                  # Algorithms for armor detection
 │   ├── CMakeLists.txt
 │   ├── config
-│   │   └── armor_detection.prototxt # config file for armor detecion parameters
-│   ├── armor_detection_algorithms.h # header file for armor detection algorithms (all algorithm's header file should be included here)
-│   ├── armor_detection_base.h       # base class of the armor detection class
-│   ├── armor_detection_client.cpp   # client of actionlib for armor detection, for development usages
-│   ├── armor_detection_node.cpp     # ros node for internal logic of armor detection
-│   ├── armor_detection_node.h       # header/entry file for the armor detection node
-│   ├── gimbal_control.cpp           # calculate gimbal's pitch and yaw according to projectile model
+│   │   └── armor_detection.prototxt # Config file for armor detecion parameters
+│   ├── armor_detection_algorithms.h # Header file for armor detection algorithms (all algorithm's header file should be included here)
+│   ├── armor_detection_base.h       # Base class of the armor detection class
+│   ├── armor_detection_client.cpp   # Client of actionlib for armor detection, for development usages
+│   ├── armor_detection_node.cpp     # ROS node for internal logic of armor detection
+│   ├── armor_detection_node.h       # Header/Entry file for the armor detection node
+│   ├── gimbal_control.cpp           # Calculate gimbal's pitch and yaw according to projectile model
 │   ├── gimbal_control.h
 │   └── proto
 │       ├── armor_detection.pb.cc
 │       ├── armor_detection.pb.h
-│       └── armor_detection.proto    # structure description file for parameters used by armor detection node
-│   ├── constraint_set               # armor detection algorithm, identifies armor using armor characteristics
+│       └── armor_detection.proto    # Structure description file for parameters used by armor detection node
+│   ├── constraint_set               # Armor detection algorithm, identifies armor using armor characteristics
 │   │   ├── CMakeLists.txt
 │   │   ├── config
-│   │   │   └── constraint_set.prototxt # adjustable armor detection parameters
+│   │   │   └── constraint_set.prototxt # Adjustable armor detection parameters
 │   │   ├── constraint_set.cpp
 │   │   ├── constraint_set.h
 │   │   └── proto
 │   │       ├── constraint_set.pb.cc
 │   │       ├── constraint_set.pb.h
-│   │       └── constraint_set.proto    # structure description file for parameters used by constraint set
+│   │       └── constraint_set.proto    # Structure description file for parameters used by constraint set
 ├── cmake_module
 │   ├── FindEigen3.cmake
 │   └── FindProtoBuf.cmake
 └── util
     ├── CMakeLists.txt
-    └── cv_toolbox.h # image data subscriber used by the detection node. It acts as a tool box for common image processing functions.
+    └── cv_toolbox.h # Image data subscriber used by the detection node. It acts as a tool box for common image processing functions.
 ```
 
 The ROS node graph of armor_detection_node can be shown as follows:

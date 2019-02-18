@@ -59,7 +59,7 @@ local_planner
 
 ```
 
-Local Path Planner related algorithms please refer to [Time Elastic Band](/sdk_docs/roborts_planning_local_planner?id=timed-elastic-band)
+Local Path Planner related algorithms please refer to [Time Elastic Band](en/sdk_docs/roborts_planning_local_planner?id=timed-elastic-band)
 
 
 local_planner_node is the core planning node，the ROS node graph is shown below:
@@ -110,7 +110,7 @@ The output of the node as follows:
 
 
 
-## Compile and running
+## Compile and Run
 
 ### Compile
 
@@ -120,7 +120,7 @@ Before compiling, make sure installed all the dependencies. In your ROS workspac
 catkin_make local_planner_node vel_converter local_planner_test
 ```
 
-### Running
+### Run
 
 ```shell
 # Launch the Local Planner node
@@ -141,7 +141,7 @@ Or using launch file
 ```
 
 ## Timed Elastic Band
-### Algorithm introduction
+### Algorithm Introduction
 
 The algorithm built-in the objective function for the path execution time, optimizes the actual moving path and calculates the optimal velocity, while keeping the safe distance with obstacles, and comply with the robot Kinematics. More theoretical detail can be found in paper:
 
@@ -149,7 +149,7 @@ The algorithm built-in the objective function for the path execution time, optim
 
 ### Related Parameters
 
-#### Path related
+#### Path Parameters
 
 * teb_autosize 
 

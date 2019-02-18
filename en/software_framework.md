@@ -24,7 +24,7 @@ On-board computing devices (such as Manifold 2) act as the upper-level computing
 
 - An observation-action-based decision model interface that adapts to various decision frameworks such as FSM (Finite State Machine), Behavior Tree and other learning-based decision frameworks.
 
-The two computing platforms communicate with the specified open source protocol through the serial port. The platform also provides a ROS-based API interface, which can be used for secondary development in ROS using C++ or Python. Based on this interface, developers can control the movement of the chassis and the gimbal, control the launching mechanism to fire the projectile by changing the input frequency,  the velocity of projectiles and the quantity of projectiles, and receive the sensor information and game data in real-time. In more advanced applications, developers can define their own protocols based on the related documentation in [roborts_base](sdk_docs/roborts_base) to extend the capabilities of the robot.
+The two computing platforms communicate with the specified open source protocol through the serial port. The platform also provides a ROS-based API interface, which can be used for secondary development in ROS using C++ or Python. Based on this interface, developers can control the movement of the chassis and the gimbal, control the launching mechanism to fire the projectile by changing the input frequency,  the velocity of projectiles and the quantity of projectiles, and receive the sensor information and game data in real-time. In more advanced applications, developers can define their own protocols based on the related documentation in [roborts_base](en/sdk_docs/roborts_base) to extend the capabilities of the robot.
 
 # Applications
 

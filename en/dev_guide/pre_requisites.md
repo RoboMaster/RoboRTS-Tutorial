@@ -1,11 +1,11 @@
 # Basic Knowledge
-## Skill requirement
+## Skill Requirement
 If you want to develop your own robot application based on RoboRTS, you need at least the following skills:
 
 - You must have experience in C++ programming and be familiar with the use of CMake tools.
 - You must have ROS-based development experience
 
-## Reference material
+## Reference Material
 
 You can refer to relevant materials in Reddit：
 

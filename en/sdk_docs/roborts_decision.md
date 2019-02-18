@@ -1,6 +1,6 @@
 # Task Scheduling and Decision Module
 
-## Introduction of modules
+## Module Introduction 
 
 Task scheduling and decision module , provided perceptual input scheduling modules , planning the interface of executing the output scheduling module，and the core frame of the decision.
 
@@ -45,7 +45,7 @@ roborts_decision/
 ```
 There is two core parts including decision and task scheduling：
 
-### Decision modules
+### Decision Modules
 
 Decision modules include several parts：
 
@@ -61,7 +61,7 @@ Decision modules include several parts：
 
     The specific behavior of the robot can be used as an action in the current decision system after different levels of abstraction. The framework provide a series of specific behavior examples. More details please refer to:`roborts_decision/example_behavior`，users can custom behavior according to samples.
 
-### Task scheduling modules
+### Task Scheduling Modules
 
 The behavior-dependent task scheduling module is mainly responsible for the task delegation of each module, and the function execution module is scheduled to complete the specific task.
 
@@ -91,7 +91,7 @@ According to the main part of the robot module , it can be divided into :
 
 -  gimbal scheduling modules
 
-#### Chassis scheduling modules
+#### Chassis Scheduling Modules
 
 The chassis scheduling modules includes a task scheduling interface with different levels of abstraction for the chassis. The operation block diagram is as follows:
 
@@ -111,7 +111,7 @@ It includes three task modules:
 
    Input target speed and acceleration  twist_accel ([roborts_msgs/TwistAccel]()) to control the robot chassis directly  performing a uniform acceleration motion at an initial given speed.
 
-##### Examples of navigation task
+##### Examples of Navigation Task
 
 As to the navigation task of motion planning control, it is actually a complex task in which multi-module nodes cooperate with each other. The chassis scheduling module delegates the planning task to the global planning module and the local planning module, and finally outputs the speed and acceleration control amount to the underlying main control board. The planning module also relies on real-time updated odometer information, location information and cost maps.
 
@@ -119,7 +119,7 @@ The block diagram of the navigation system in the actual scene and virtual envir
 
 ![](https://rm-static.djicdn.com/documents/20758/1a8702f75a2361547553400516274462.png)
 
-#### Gimbal scheduling modules
+#### Gimbal scheduling Modules
 
 The gimbal scheduling modules includes a task scheduling interface with different levels of abstraction for the gimbal. The operation block diagram is as follows:
 

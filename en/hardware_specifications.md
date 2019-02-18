@@ -1,4 +1,4 @@
-## Structural composition
+## Structural Composition
 The whole platform is modular-designed with quick disassembly and each part can be separately programmed and tested.
 
 <center class="half">
@@ -51,7 +51,7 @@ In addition, **DT7 Remote Controller** and smart Lipo 6s battery ([Matrice 100 T
 
 The platform accommodates an extensive variety of sensors and computing devices, customized to meet research needs easy for extended development. It provides sensor Installation holder compatible with different types of sensors including industrial mono-camera,  Lidar,  UWB locating kit, depth camera and so on.  And the platform officially supported DJI Manifold 2 as the onboard computing device, but it is compatible with intel NUC, Nvidia Jetson TX1, TX2 or Xavier with certain type of carrier board.
 
-## Hardware parameters
+## Hardware Parameters
 | Structure                  |                       |
 | :-------------------- | :-------------------- |
 | Overall size                      | 600 x 450 x 460 mm    |

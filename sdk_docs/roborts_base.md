@@ -64,7 +64,7 @@ roborts_base
 
 其ROS节点图示如下：
 
-![](https://rm-static.djicdn.com/documents/20758/c83bd9a96d0881547553169167234981.png)
+![](https://rm-static.djicdn.com/documents/20758/002d528eb36ad1550474043463957284.png)
 
 ### 云台模块
 
@@ -78,9 +78,6 @@ roborts_base
 
   底盘速度与加速度的控制量，即在下一个控制周期内，底盘以给定的速度做匀加速度运动
 
-* /set_chassis_mode ([roborts_msgs/ChassisMode]())
-
-  设定底盘的模式
 
 #### 输出
 
@@ -107,7 +104,7 @@ roborts_base
 
 * /cmd_gimbal_rate ([roborts_msgs/GimbalRate]())
 
-  云台角速度的控制量
+  [**未启用**]云台角速度的控制量
 
 * /set_gimbal_mode ([roborts_msgs/GimbalMode]())
 

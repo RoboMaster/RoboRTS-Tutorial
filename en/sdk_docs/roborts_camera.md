@@ -1,6 +1,6 @@
 # Camera driver module
 
-## Module introduction
+## Module Introduction
 
 The camera driver module encapsulates common camera drivers and publishes image data and camera parameters via ROS `image_transport`.
 
@@ -33,7 +33,7 @@ roborts_camera
 
 The camera runs the node`roborts_camera_node`, which automatically dispatches the camera to publish image data by reading the configuration parameters of one or more cameras.
 
-### Related parameters
+### Related Parameters
 The parameters are defined in `proto/camera_param.proto`. For the configuration of the parameters, see `config/camera_param.prototxt`which accepts multiple camera configurations. Single camera parameters include
 
 * camera_name (`string`)
@@ -121,7 +121,7 @@ The parameters are defined in `proto/camera_param.proto`. For the configuration 
  Camera raw image data
 
 
-## Compile and run
+## Compile and Run
 
 ### Compile 
 
