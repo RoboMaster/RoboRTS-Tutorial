@@ -51,26 +51,26 @@ Inputs and outputs of the node are as follows:
 
 ### Inputs
 
-- /camera_name/image_raw ([sensor_msgs/Image]())
+- /camera_name/image_raw ([sensor_msgs/Image](http://docs.ros.org/melodic/api/sensor_msgs/html/msg/Image.html))
 
   (requried) Obtained by subscribing to `roborts_camera`, used for armor detection.
 
-- /camera_name/camera_info ([sensor_msgs/CameraInfo]())
+- /camera_name/camera_info ([sensor_msgs/CameraInfo](http://docs.ros.org/melodic/api/sensor_msgs/html/msg/CameraInfo.html))
 
   (requried) Obtained by subscribing to `roborts_camera`, used to calculate PnP and get 3D coodinates of the target.
 
 ### Outputs
 
-- /armor_detection_node_action/feedback ([roborts_msgs/action/ArmorDetection]())
+- /armor_detection_node_action/feedback (roborts_msgs/action/ArmorDetection)
 
   `Actionlib Server` responds in real-time with location data of detected armor; the interface is wrapped by Actionlib.
 
-- /armor_detection_node_action/status ([actionlib_msgs/GoalStatusArray]())  
+- /armor_detection_node_action/status ([actionlib_msgs/GoalStatusArray](http://docs.ros.org/melodic/api/actionlib_msgs/html/msg/GoalStatusArray.html))  
 
   `Actionlib Server` responds in real-time with states of the detection node;  the interface is wrapped by Actionlib.
 
 
-- /cmd_gimbal_angle ([roborts_msgs/msgs/GimbalAngle]())  
+- /cmd_gimbal_angle (roborts_msgs/msgs/GimbalAngle)  
 
   Publish gimbal control messages.
 
