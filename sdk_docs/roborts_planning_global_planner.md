@@ -24,7 +24,7 @@
         └── global_planner_config.proto    # 全局规划参数定义文件
  ```
 
-全局路径规划的相关算法参考[A Star算法](algorithm/a_star.md) 
+全局路径规划的相关算法参考[A Star算法](sdk_docs/roborts_planning_global_planner?id=a) 
 
 global_planner_node为核心规划节点，ROS节点图示为
 
