@@ -82,7 +82,7 @@ Test result in RViz:
 
 
 
-## Module inputs
+## Input
 
 * /map ([nav_msgs/OccupancyGrid](http://docs.ros.org/api/nav_msgs/html/msg/OccupancyGrid.html))
 
@@ -104,7 +104,7 @@ Test result in RViz:
 
   (optional) UWB data used to correct global localization data.
 
-## Module Output
+## Output
 
 * /amcl_pose ([geometry_msgs/PoseWithCovarianceStamped](http://docs.ros.org/api/geometry_msgs/html/msg/PoseWithCovarianceStamped.html))
 

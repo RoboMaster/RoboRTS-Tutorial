@@ -1,3 +1,3 @@
-* [中文](/)
-* [English](/en/)
+* [中文](/roborts)
+* [English](/en/roborts)
 * [RoboMaster](https://www.robomaster.com/)

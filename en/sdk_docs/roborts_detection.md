@@ -49,7 +49,7 @@ The ROS node graph of armor_detection_node can be shown as follows:
 
 Inputs and outputs of the node are as follows:
 
-### Inputs
+### Input
 
 - /camera_name/image_raw ([sensor_msgs/Image](http://docs.ros.org/melodic/api/sensor_msgs/html/msg/Image.html))
 
@@ -59,7 +59,7 @@ Inputs and outputs of the node are as follows:
 
   (requried) Obtained by subscribing to `roborts_camera`, used to calculate PnP and get 3D coodinates of the target.
 
-### Outputs
+### Output
 
 - /armor_detection_node_action/feedback (roborts_msgs/action/ArmorDetection)
 
@@ -74,7 +74,7 @@ Inputs and outputs of the node are as follows:
 
   Publish gimbal control messages.
 
-### Parameters
+### Related Parameters
 
 For definitions of parameters see `proto/armor_detection.proto`，for parameter config data see `config/armor_detection.prototxt`.
 

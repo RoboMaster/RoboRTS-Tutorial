@@ -25,9 +25,9 @@ ICRA 2019 RoboMaster AI Challenge documents
 
 (SolidWorks 2016 or higher version)
 
-[Mechanism drawings Solidworks)](https://rm-static.djicdn.com/documents/19806/232fed8050cfe1548739880652461892.SLDPRT)
+[Mechanism drawings Solidworks](https://rm-static.djicdn.com/documents/19806/232fed8050cfe1548739880652461892.SLDPRT)
 
 ### Creo
 (Creo 3 or higher version)
 
-[Mechanism drawings Creo)](https://rm-static.djicdn.com/documents/19806/a96a1cc07664b1548738962638883052.1)
+[Mechanism drawings Creo](https://rm-static.djicdn.com/documents/19806/a96a1cc07664b1548738962638883052.1)

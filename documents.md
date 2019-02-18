@@ -21,7 +21,7 @@ ICRA 2019 RoboMaster人工智能挑战赛相关文档。
 
 [RoboMaster AI Robot Mechanism STEP drawings](https://rm-static.djicdn.com/documents/19806/4df8649b3596f1548056917303346609.STEP)
 
-### SolidWorks 
+### SolidWorks版
 
 该机械图纸需要SolidWorks 2016或更高版本。
 
