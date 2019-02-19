@@ -45,7 +45,7 @@ The platform is mainly composed of three parts.
 - An electronic penalty system that integrates computation, communication, and control features into different submodules and is used for robotic competitions only. Developers can acquire the information from specific software interface about the progress of the competition and the status of robots
 - The Referee System includes the onboard terminal installed on the robot, as well as the server and client software installed on the PC
 - Submodules installed on the robot consists of **Armor Module**，**Main Control Module**，**Speed Monitor Module**，**RFID Interaction  Module** and **Power Management Module**
-- For more information about the referee system, please refer to "the Referee System Specification Manuel" under [related documents](/documents).
+- For more information about the referee system, please refer to "the Referee System Specification Manuel" under [Related Resources](en/resources).
 
 In addition, **DT7 Remote Controller** and smart Lipo 6s battery ([Matrice 100 TB47D Battery](https://store.dji.com/product/matrice-100-tb47d-battery?from=autocomplete&position=0) or [TB48D](https://store.dji.com/product/matrice-100-tb48d-battery))  with related charger are included in the accessories of the robot plateform. 
 

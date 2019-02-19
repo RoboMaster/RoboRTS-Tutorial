@@ -49,7 +49,7 @@ RoboMaster机器人平台基于模块化设计，支持快拆结构，各模块�
 
 - 机载端包含**主控模块**、**电源管理模块**、**装甲模块**、**测速模块**、**场地交互模块**等。
 
-- 关于裁判系统模块更多信息请参考[相关文档](/documents)中的《裁判系统规范手册》。
+- 关于裁判系统模块更多信息请参考[相关资料](/resources)中的《裁判系统规范手册》。
 
 除此之外，整个平台还包括**DT7遥控器**和智能锂电池 ([经纬 M100 TB47D电池](https://store.dji.com/product/matrice-100-tb47d-battery?from=autocomplete&position=0) 或 [TB48D](https://store.dji.com/product/matrice-100-tb48d-battery)) 及其充电器。关于机器人平台更多详细信息，请参考[相关文档](/documents)中的《AI机器人用户手册》。
 

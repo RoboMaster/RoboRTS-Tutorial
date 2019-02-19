@@ -3,7 +3,7 @@
   * [RoboMaster 2019](en/roborts.md)
   * [Hardware Specifications](en/hardware_specifications.md)
   * [Software Framework](en/software_framework.md)
-  * [Documents](en/documents.md)
+  * [Related Resources](en/resources.md)
 * Quick Start
   * [Manifold 2 Setup Guide](en/quick_start/setup_on_manifold2.md)
   * [Quick Test](en/quick_start/quick_test.md)

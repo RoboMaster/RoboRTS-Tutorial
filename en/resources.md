@@ -31,3 +31,8 @@ ICRA 2019 RoboMaster AI Challenge documents
 (Creo 3 or higher version)
 
 [Mechanism drawings Creo](https://rm-static.djicdn.com/documents/19806/a96a1cc07664b1548738962638883052.1)
+
+## RoboMaster AI Robot Open Source Code Repository
+[RoboMaster AI Robot Embedded MCU(STM32)](https://github.com/RoboMaster/RoboRTS-Firmware)
+
+[RoboMaster AI Robot Onboard PC(ROS)](https://github.com/RoboMaster/RoboRTS)

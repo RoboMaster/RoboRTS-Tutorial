@@ -31,3 +31,9 @@ ICRA 2019 RoboMaster人工智能挑战赛相关文档。
 该机械图纸需要Creo3或更高版本。
 
 [RoboMaster AI机器人机械图纸(Creo)](https://rm-static.djicdn.com/documents/19806/a96a1cc07664b1548738962638883052.1)
+
+## RoboMaster AI机器人开源代码仓库
+
+[RoboMaster AI 机器人嵌入式MCU(STM32)](https://github.com/RoboMaster/RoboRTS-Firmware)
+
+[RoboMaster AI 机器人机载PC(ROS)](https://github.com/RoboMaster/RoboRTS)
