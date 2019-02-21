@@ -133,7 +133,7 @@ sudo apt-get install -y ros-kinetic-opencv3             \
                         ros-kinetic-stage-ros           \
                         ros-kinetic-map-server          \
                         ros-kinetic-laser-geometry      \
-                        ros-kinetic-interactive-markers \ 
+                        ros-kinetic-interactive-markers \
                         ros-kinetic-tf                  \
                         ros-kinetic-pcl-*               \
                         ros-kinetic-libg2o              \
