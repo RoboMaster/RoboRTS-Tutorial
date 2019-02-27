@@ -117,7 +117,7 @@ The output of the node as follows:
 Before compiling, make sure installed all the dependencies. In your ROS workspace run the following command
 
 ```shell
-catkin_make local_planner_node vel_converter local_planner_test
+catkin_make local_planner_node vel_converter teb_test
 ```
 
 ### Run
@@ -128,7 +128,7 @@ rosrun roborts_planning local_planner_node
 # Launch vel_converter
 rosrun roborts_planning vel_converter
 # Launch timed elastic band test node
-rosrun roborts_planning local_planner_test
+rosrun roborts_planning teb_test
 ```
 
 Or using launch file

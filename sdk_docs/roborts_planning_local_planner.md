@@ -115,7 +115,7 @@ local_planner_node为核心规划节点，ROS节点图示为:
 在编译之前, 确保已经安装所有依赖。在 ros 工程目录下运行一下指令
 
 ```shell
-catkin_make local_planner_node vel_converter local_planner_test
+catkin_make local_planner_node vel_converter teb_test
 ```
 
 ### 运行
@@ -126,7 +126,7 @@ rosrun roborts_planning local_planner_node
 # 启动vel_converter
 rosrun roborts_planning vel_converter
 # 启动timed elastic band测试节点
-rosrun roborts_planning local_planner_test
+rosrun roborts_planning teb_test
 ```
 
 或从 launch 文件启动
