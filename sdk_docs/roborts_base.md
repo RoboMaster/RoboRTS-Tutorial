@@ -66,7 +66,7 @@ roborts_base
 
 ![](https://rm-static.djicdn.com/documents/20758/002d528eb36ad1550474043463957284.png)
 
-### 云台模块
+### 底盘模块
 
 #### 输入
 
