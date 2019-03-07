@@ -163,7 +163,7 @@ roslaunch roborts_bringup roborts_stage.launch
 rosrun roborts_decision behavior_test_node
 ```
 
-输入不同数字指令，可切换执行不同的行为
+输入1\2\3\4\5\6不同数字指令，可切换执行不同的行为
 
 
 

@@ -68,7 +68,7 @@ sudo ./jetson_clocks.sh
 
   > [!Tip]
   >
-  > 可参考`roborts_bringup`模块文档中的[脚本](sdk_docs/roborts_bringup?id=脚本)小节，通过开机自启服务，开启最大性能同时关闭wlan0节能模式。
+  > 在下载和编译roborts包后，可参考`roborts_bringup`模块文档中的[脚本](sdk_docs/roborts_bringup?id=脚本)小节，通过开机自启服务，开启最大性能同时关闭wlan0节能模式。
 
 
 ## 外设端口映射配置
@@ -110,7 +110,7 @@ sudo ./jetson_clocks.sh
 
 >[!Tip]
 >
->可参考`roborts_bringup`模块文档中的[脚本](sdk_docs/roborts_bringup?id=脚本)小节，执行udev端口映射脚本。
+>在下载和编译roborts包后，可参考`roborts_bringup`模块文档中的[脚本](sdk_docs/roborts_bringup?id=脚本)小节，执行udev端口映射脚本。
 
 
 
@@ -137,6 +137,7 @@ sudo apt-get install -y ros-kinetic-opencv3             \
                         ros-kinetic-tf                  \
                         ros-kinetic-pcl-*               \
                         ros-kinetic-libg2o              \
+                        ros-kinetic-rplidar-ros         \
                         ros-kinetic-rviz                \
                         protobuf-compiler               \
                         libprotobuf-dev                 \
@@ -163,7 +164,7 @@ cd roborts_ws/src
 # 下载RoboRTS源码
 git clone https://github.com/RoboMaster/RoboRTS
 # 编译源码
-cd roborts_ws
+cd ..
 catkin_make 
 # 加载环境变量
 source devel/setup.bash

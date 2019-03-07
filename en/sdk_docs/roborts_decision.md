@@ -163,7 +163,7 @@ Start the testing nodes of behavior
 rosrun roborts_decision behavior_test_node
 ```
 
-Input different digital command and you can switch to perform different behaviors
+Input different digital command like 1/2/3/4/5/6 and you can switch to perform different behaviors
 
 
 

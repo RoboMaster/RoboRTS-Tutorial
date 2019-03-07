@@ -68,7 +68,7 @@ sudo ./jetson_clocks.sh
 
   > [!Tip]
   >
-  > Refer to the [Script](en/sdk_docs/roborts_bringup?id=script) section of the `roborts_bringup` module documentation to enable maximum performance and turn off wlan0 power-saving mode by booting the service.
+  > Refer to the [Script](en/sdk_docs/roborts_bringup?id=script) section of the `roborts_bringup` module documentation to enable maximum performance and turn off wlan0 power-saving mode by booting the service after downloading and compiling the roborts packages.
 
 
 ## Peripheral Port Mapping
@@ -110,7 +110,7 @@ If it is a cheap camera, the serial port number may be the same, you can configu
 
 >[!Tip]
 >
->You can refer to the [Script](en/sdk_docs/roborts_bringup?id=script) section of the `roborts_bringup` module documentation to execute the udev port mapping script.
+>You can refer to the [Script](en/sdk_docs/roborts_bringup?id=script) section of the `roborts_bringup` module documentation to execute the udev port mapping script after downloading and compiling the roborts packages.
 
 
 
@@ -137,6 +137,7 @@ sudo apt-get install -y ros-kinetic-opencv3             \
                         ros-kinetic-tf                  \
                         ros-kinetic-pcl-*               \
                         ros-kinetic-libg2o              \
+                        ros-kinetic-rplidar-ros         \
                         ros-kinetic-rviz                \
                         protobuf-compiler               \
                         libprotobuf-dev                 \
@@ -163,7 +164,7 @@ cd roborts_ws/src
 # Download RoboRTS source code
 git clone https://github.com/RoboMaster/RoboRTS
 # Compile source code
-cd roborts_ws
+cd ..
 catkin_make 
 # Load environment variables
 source devel/setup.bash
